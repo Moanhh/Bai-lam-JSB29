@@ -1,0 +1,104 @@
+html {
+    background: url(https://img3.thuthuatphanmem.vn/uploads/2019/10/10/background-bong-bong-dong-ngo-nghinh_032845998.gif);
+}
+html { 
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    text-align: center;
+    color: purple
+    ;
+}
+form { 
+    box-sizing: border-box;
+    width: 300px;
+    margin: 50px auto 100px auto;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+#bd {
+    font-size: 28px;
+    font-weight: 500;
+}
+#bd, form {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f2e5ff;
+}
+#gt {
+  background-color: #ffe6ff;
+  border-radius: 10%;
+}
+input {
+    margin: 40px 25px;
+    width: 200px;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #5252b6;
+    background: linear-gradient(
+        to bottom,
+        #7a1c1c,
+        rgb(218, 14, 65) 
+    );
+    background-position: -200px 0;
+    background-size: 200px 100px;
+    background-repeat: no-repeat;
+    color: mediumpurple;
+}
+button {
+    border: none;
+    background: #a3344e;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: rgb(231, 236, 234);
+    margin-left: 25px;
+}
+.vịt {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .vịt input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(201, 59, 168);
+    border-radius: 70%;
+  }
+  .vịt:hover input ~ .checkmark {
+    background-color: rgb(100, 6, 91);
+  }
+  .vịt input:checked ~ .checkmark {
+    background-color: #e98181;
+  }
+  .checkmark:after {
+    position: absolute;
+    display: none;
+  }
+i {
+  font-size: 12px;
+  color: #ffb3b3;
+  text-align: right;
+  font-weight: 650;
+  line-height: 30px;
+}
+  
+  

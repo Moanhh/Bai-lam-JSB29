@@ -1,0 +1,70 @@
+html {
+    background: url(https://img3.thuthuatphanmem.vn/uploads/2019/10/10/background-bong-bong-dong-ngo-nghinh_032845998.gif);
+}
+html { 
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+form { 
+    box-sizing: border-box;
+    width: 300px;
+    margin: 50px auto 100px auto;
+    padding-right: 40px;
+    border-radius: 5px;
+  
+}
+#modau {
+    font-size: 28px;
+    font-weight: 500;
+}
+#modau, form {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f2e5ff;
+}
+input {
+    margin: 40px 25px;
+    width: 200px;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #5252b6;
+    background: linear-gradient(
+        to bottom,
+        #7a1c1c,
+        rgb(218, 14, 65) 
+    );
+    background-position: -200px 0;
+    background-size: 200px 100px;
+    background-repeat: no-repeat;
+    color: mediumpurple;
+}
+button {
+    border: none;
+    background: #a3344e;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px;
+    width: 220px;
+    color: rgb(231, 236, 234);
+    margin-left: 25px;
+}
+a {
+    text-align: center;
+    color:violet;
+    font-size: 11px;
+}
+#ms {
+    width: 10px;
+    height: 11px;
+    left: 50px;
+    color: rgb(204, 29, 116);
+    background-color: rgb(240, 159, 199);
+}
+label {
+    font-size: 12px;
+    text-align: center;
+}

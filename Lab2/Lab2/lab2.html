@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập tài khoản</title>
+    <link rel="stylesheet" href="lab2.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ranchers&display=swap');
+    </style>
+<body>
+    <h1>
+        Chào mừng đến với thế giới Pong Póng 
+    </h1>
+    <form> 
+        <h1 id="modau">
+            Đăng nhập 
+        </h1>
+        <div>
+            Tên đăng nhập:<br>
+            <input type="text" placeholder="Họ đệm của tôi là" required=" "/>
+            <br>
+            Mật khẩu:<br>
+            <input type="password" placeholder="Mật khẩu của tôi là" required=" " />
+        </div>
+        <div> 
+            <button> Đăng nhập </button>
+        </div>
+        <em>
+            <a id="dki" href="lab2tr2.html" target="self">Bạn chưa từng ở thế giới này?</a> 
+            <!-- #dki thì là lab2tr2 cùng với css của nó -->
+            <a href="qmk.html" target="blank"> Quên mật khẩu ?</a>
+            <!-- qmk same và bên qmk em cũng lồng nhạc khác
+            nên đề nghị khi anh qua bên đó thì bấm mute nhạc bên này lại
+            em lồng nhìu nhạc z để em luyện á -->
+            <!-- nhạc của qmk sẽ autoplay và không có controls -->
+        </em>
+        <audio id="ms" controls autoplay > 
+            <!-- có nhạc autoplay ban đàu khi mở web 
+                nhưng em check nhiều lần thì nó không autoplay như em nghĩ -->
+            <source 
+            src="fxxkit.mp3"
+            type="audio/mp3"/>
+            <!-- controls của nhạc là nút trắng viền hồng bên cạnh chữ in nghiêng -->
+        </audio>
+    </form>
+</body>
+</html>

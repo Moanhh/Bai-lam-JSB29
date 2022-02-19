@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí thế giới</title>
+    <link rel="stylesheet" href="lab2tr2.css">
+</head>
+<body>
+    <h1>
+        Thế giới Pong Póng chào đón bạn!
+    </h1>
+    <form>
+        <h1 id="bd">
+            Xin mời đăng kí
+        </h1>
+            Họ và Tên:<xm>
+            <input type="text" placeholder="Đầy đủ họ và tên">
+            <br>
+        <div>
+            Giới tính:<br>
+            <br>
+            <select id="gt">
+                <option> Nam </option>
+                <option> Nữ </option>
+                <option> Bí mật </option>
+            </select>
+        </div>
+        <br>
+        <div id="ntns">
+            Ngày/ Tháng/ Năm sinh:
+            <input type="date" id="datemin"
+                name="datemin" min="1900-01-01"/>
+        </div>
+        <div>
+            Bạn có iu vịt không?<br>
+            <br>
+            <label class="vịt"> Iu rất là nhìu lunnn
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="vịt"> Không iu tí tẹo nào với con đó! 
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+        </div>
+        <br>
+        <div>
+            Nhập Gmail của bạn:
+            <input type="email" name="email" placeholder="abcxyz@gmail.com"/>
+        </div>
+        <div>
+            Câu hỏi mang tính bảo mật: <br>
+            <i> 
+                Câu hỏi xác nhận khi quên mật khẩu
+            </i> 
+            <br>
+            Bạn thích ăn món gì nhất?
+            <input type="text" placeholder="nhập món ăn bạn thích...">
+        </div>
+        <button>
+            Đăng kí 
+        </button>
+    </form>
+</body>
+</html>
